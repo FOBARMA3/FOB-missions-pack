@@ -6,6 +6,8 @@ Missions Wolfpack :
 
 -despription.ext 
 
+-ADF_init_config.sqf
+
 -mission.sqm : dans editeur pour copier les joueurs,
 
 -Img/modifier images wpintro.paa, intra_dayX.paa et wolf_logo.paa
