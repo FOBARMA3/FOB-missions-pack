@@ -87,7 +87,7 @@ ADF_fnc_kallazizActive = {
 	waitUntil {sleep 2; kallaziz_active};
 	["TOC","JSOC TOC","Big Foot: Phoenix, Prenez message."] call ADF_fnc_MessageParser; sleep 8;
 	["WOLF","","Phoenix: Envoyez.."] call ADF_fnc_MessageParser; sleep 11;
-	["TOC","JSOC TOC","Big Foot: Phoenix, Satnav vient juste d.identifier un hélico se dirigeant vers Frini base.</br>Ce doit être le colis. Prenez position pour l'emmener. Parlez"] call ADF_fnc_MessageParser; sleep 22;
+	["TOC","JSOC TOC","Big Foot: Phoenix, Satnav vient juste d.identifier un hélico se dirigeant vers Frini base.</br>Ce doit être le colis. Prenez position pour l'eliminer. Parlez"] call ADF_fnc_MessageParser; sleep 22;
 	["WOLF","","Phoenix: Reçu. Terminé."] call ADF_fnc_MessageParser;
 };
 
