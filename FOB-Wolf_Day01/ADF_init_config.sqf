@@ -23,10 +23,10 @@ ADF_debug = false; // For mission testing/debugging set to true. Make sure to se
 ADF_Log_ServerPerfEnable = true; // Enable server performance logging in RPT. [true/false]
 ADF_clanName = "Wolfpack"; // What is the name of your community/clan. Used in Hints, intro's etc.
 ADF_clanTAG = "Wolfpack"; // What is the tag of your community/clan. Used in Hints, intro's etc.
-ADF_clanLogo = "Img\jsoc_logo.paa"; // Full path to the clan logo. 
+ADF_clanLogo = "Img\jsoc_logo.paa"; // Full path to the clan logo.
 ADF_clanFlag = "Img\clan_flag_ADF.paa"; // Full path to the clan flag (dimensions 512 x 256, pref PAA format).
-_ADF_MissionIntroImage = "Img\wpintro.paa"; // Full path to the mission intro image (dimensions: 2038 x 1024, PAA format only). 
-ADF_Clan_uniformInsignia = true; // Apply custom clan insignia on uniform. It uses the 'Img\clan_logo.paa' unless otherwise specified in the description.ext [true/false]. 
+_ADF_MissionIntroImage = "Img\wpintro.paa"; // Full path to the mission intro image (dimensions: 2038 x 1024, PAA format only).
+ADF_Clan_uniformInsignia = true; // Apply custom clan insignia on uniform. It uses the 'Img\clan_logo.paa' unless otherwise specified in the description.ext [true/false].
 _ADF_preset = "WOLFPACK"; // pre-defined call sign/radio freq presets. [DEFAULT / SHAPE / NOPRYL / CUSTOM]. Configure the presets in 'Core\F\ADF_fnc_presets.sqf'
 
 /********** GEAR & LOADOUT **********/
@@ -36,7 +36,7 @@ _ADF_noLoadout = false; // Set to true if you use your own loadout script or loa
 _ADF_uniform_inf = "U_B_CombatUniform_mcam"; // Infantry. Use uniform class name. Crew, pilots etc keep their Vanilla uniform.
 _ADF_uniform_sor = "U_B_CombatUniform_mcam_vest"; // Recon. Use uniform class name.
 _ADF_add_NVGoggles = true; // add NV Goggles as default loadout [true/false].
-_ADF_add_GPS = true; // Enable GPS for all unit (true) or only specialist/leadership roles (false).
+_ADF_add_GPS = false; // Enable GPS for all unit (true) or only specialist/leadership roles (false).
 _ADF_Thermal = true; // Enable/disable thermal imaging equipment such as FLIR [true/false].
 // Weapons
 _ADF_INF_assault_weapon = 1; // Infantry assault rifle: 1 = MX series  #  2 = TRG series.
