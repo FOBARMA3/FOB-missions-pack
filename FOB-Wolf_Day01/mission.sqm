@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=290;
+		nextID=291;
 	};
 	class MarkerIDProvider
 	{
@@ -16,7 +16,7 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={8438.9775,249.73001,25001.602};
+		pos[]={8451.9355,132.08418,25078.494};
 		dir[]={-0.024885252,-0.77303523,0.63387889};
 		up[]={-0.030325068,0.63436013,0.77244192};
 		aside[]={0.99923253,-6.5633685e-009,0.039228681};
@@ -84,7 +84,6 @@ addons[]=
 	"ace_microdagr",
 	"ace_trenches",
 	"ace_explosives",
-	"A3_Characters_F_Mark",
 	"A3_Modules_F_Curator_Curator",
 	"A3_Modules_F_Sites",
 	"ace_advanced_fatigue",
@@ -95,7 +94,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=44;
+		items=43;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -368,33 +367,26 @@ class AddonsMetaData
 		};
 		class Item39
 		{
-			className="A3_Characters_F_Mark";
-			name="Arma 3 Marksmen - Characters and Clothing";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item40
-		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item41
+		class Item40
 		{
 			className="ace_advanced_fatigue";
 			name="ACE3 - Advanced Fatigue";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item42
+		class Item41
 		{
 			className="A3_Supplies_F_Exp";
 			name="Arma 3 Apex - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item43
+		class Item42
 		{
 			className="ace_dragging";
 			name="ACE3 - Dragging";
@@ -4831,7 +4823,7 @@ class Mission
 			side="West";
 			class Entities
 			{
-				items=6;
+				items=5;
 				class Item0
 				{
 					dataType="Object";
@@ -5158,22 +5150,6 @@ class Mission
 						};
 						nAttributes=2;
 					};
-				};
-				class Item5
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={8459.917,106.31072,25103.445};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-					};
-					id=289;
-					type="B_HeavyGunner_F";
-					atlOffset=0.00038909912;
 				};
 			};
 			class Attributes
@@ -6204,7 +6180,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=1;
+							value=2;
 						};
 					};
 				};
@@ -6217,7 +6193,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={16097.752,-94.518181,23017.973};
-				angles[]={0.14301609,0,6.1782403};
+				angles[]={0.14301229,0,6.1782384};
 			};
 			id=279;
 			type="ace_advanced_fatigue_moduleSettings";
